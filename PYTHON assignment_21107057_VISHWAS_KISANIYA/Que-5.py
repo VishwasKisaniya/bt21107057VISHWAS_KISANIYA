@@ -5,5 +5,5 @@ while i <= 345:        #While loop is used to make a loop of each 15degree angle
     sine = math.sin(math.radians(i))    #using sine and cosine functions from math module
     cosine = math.cos(math.radians(i))
     
-    print("sin(",i,"):", round(sine, 4),",", "Cos(",i,"):", round(cosine, 4))
+    print(i,"---", round(sine, 4),",",i, round(cosine, 4))
     i+= 15
