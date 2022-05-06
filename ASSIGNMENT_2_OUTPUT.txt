@@ -1,0 +1,50 @@
+
+A) Length of the given string:  35 
+
+B) Reverse of the given string is :
+egaugnal evitisnes esac a si nohtyP 
+
+C) New sliced string is:  
+ a case sensitive 
+
+D) String after replacing:  
+ Python is object oriented language 
+
+E) Index of substring 'a' is: 10 
+
+F) Sting without white spaces:  
+ Pythonisacasesensitivelanguage
+
+
+Name of Applicant: Vishwas Kisaniya
+Enter your college ID:21107057
+Enter your department name: Mechanical
+Enter your CGPA: 10.0
+Hey, Vishwas Kisaniya Here!          
+My SID is 21107057
+I am from Mechanical department and my CGPA is 10.0
+
+
+A. a & b = 8
+B. a | b = 58
+C. a ^ b = 50
+D. a << 2 =  224
+E. a >> 2 =  14  and  b >> 4 =  0
+
+
+Enter any string: vishwas is my name
+Yes
+
+
+Enter First length : 7
+Enter Second length : 4
+Enter Third length : 5
+The triangle can be formed?
+Yes!
+
+
+Enter the value of a :5
+Enter the value of b :2
+1
+2
+3
