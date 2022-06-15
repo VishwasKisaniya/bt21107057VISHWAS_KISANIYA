@@ -1,25 +1,29 @@
 #Question- 1
 
-a= input("Enter a string")
+a= input("Enter a string: ")
 b= len(a)
 while b>0:
     print(a[b-1], end='')
     b=b-1
+print("\n") 
+
 #-------------------------------------------------------------------------------
 
 #Question- 2
 
-lowerrange1= input("Enter the lower range")
+lowerrange1= input("Enter the lower range: ")
 lowerrange=int(lowerrange1)
-upperrange1= input("Enter the upper range")
+upperrange1= input("Enter the upper range: ")
 upperrange=int(upperrange1)
-n= int(input("enter the number"))
+n= int(input("Enter the number: "))
 #to keep the starting and end not included
 i= lowerrange+1
 while i<upperrange:
     if(i%n==0):
         print(i)
     i=i+1
+print("\n")
+    
 #-------------------------------------------------------------------------------
 
 # Question- 3
@@ -31,6 +35,8 @@ c=int(input("ENTER THE third SIDE: "))
 s=(a+b+c)/2
 area= math.sqrt(s*(s-a)*(s-b)*(s-c))
 print('Area of the triangle: ',area)
+print("\n")
+
 #-------------------------------------------------------------------------------
 
 # Question- 4
@@ -45,13 +51,15 @@ for i in range(0,5):
         print('*', end='')
         j=j-1
     print()
+print("\n")
+
 #-------------------------------------------------------------------------------
     
 # Question- 5
 
 a1='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 a=a1
-n= int(input("enter the number: "))
+n= int(input("Enter the number: "))
 for i in range(1,n+1):
     if len(a)<i:
         a=a+a1
@@ -61,6 +69,8 @@ for i in range(1,n+1):
     print()
     
     a=a[i:]
+print("\n")
+    
 #-------------------------------------------------------------------------------
 
 # Question- 6
@@ -73,6 +83,8 @@ for i in range (2, n+1):
             break
     else:
         print(i)
+print("\n")
+        
 #-------------------------------------------------------------------------------
 
 # Question- 7
@@ -81,6 +93,8 @@ for i in range (2, n+1):
 for i in range (1,500):
     if(i%7==0 and i%11==0):
         print(i)
+print("\n")
+        
 #-------------------------------------------------------------------------------
 
 # Question- 8
@@ -154,10 +168,8 @@ for i in lst:
             lst[j]=1.1   # an decimal no which would be used afterwards to distinguish it from others
         j=j+1
     print('Frequency of ',i,'is :',n)
-
-
-
-
+print("\n")
+    
 #-------------------------------------------------------------------------------
 
 # Question- 9
