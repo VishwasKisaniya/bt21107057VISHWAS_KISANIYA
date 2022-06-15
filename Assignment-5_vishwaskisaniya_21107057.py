@@ -162,7 +162,7 @@ for i in lst:
 
 # Question- 9
 
-a= ['dheeraj','dheeraj','vaibhav','gursimar','amisha','vaibhav','kundu','kundu']
+a= ['vishwas','vishwas','pulkit','soumik','soumik','pulkit','kundu','dheeraj']
 for i in a:
     g=0
     n=0
